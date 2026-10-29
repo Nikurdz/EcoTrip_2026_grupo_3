@@ -1,0 +1,9 @@
+# Compilación y caché de Gradle / Kotlin
+build/
+.gradle/
+.kotlin/
+
+# Configuración local del IDE y del equipo
+.idea/
+local.properties
+*.iml
