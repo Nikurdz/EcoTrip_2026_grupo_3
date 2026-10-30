@@ -41,8 +41,4 @@ val EcoTripShapes = Shapes(
     medium = RoundedCornerShape(16.dp),
     large = RoundedCornerShape(topStart = 32.dp, topEnd = 12.dp, bottomEnd = 32.dp, bottomStart = 12.dp),
     extraLarge = RoundedCornerShape(CornerSize(36.dp))
-<<<<<<< HEAD
 )
-=======
-)
->>>>>>> 5284d95 (feat: registrar MainActivity y navegación)
