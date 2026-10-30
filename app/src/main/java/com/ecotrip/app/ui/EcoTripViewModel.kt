@@ -86,8 +86,11 @@ class EcoTripViewModel(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
         initialValue = FormularioUiState(
+<<<<<<< HEAD
             // Si el proceso murió, el nombre editado también se recupera sin esperar al disco.
             nombreViajero = savedStateHandle[CLAVE_NOMBRE] ?: "",
+=======
+>>>>>>> 5284d95 (feat: registrar MainActivity y navegación)
             destino = savedStateHandle[CLAVE_DESTINO] ?: "",
             duracion = savedStateHandle[CLAVE_DURACION] ?: "",
             esViajeGrupal = savedStateHandle[CLAVE_GRUPAL] ?: false
